@@ -77,14 +77,19 @@
 
 .description {
   margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 80%;
 }
 
-.two-columns {
-  width: 80%;
+.two-columns {  
   display: flex;
   justify-content: space-between;
   margin: auto;
   color: #000;
+  width: 80%;
+  min-width: 784px;
 }
 
 .two-columns_brief {
@@ -95,11 +100,7 @@
   font-weight: normal;
   margin-top: 0;
 }
-
-.two-columns_main-text {
-  width: 80%;
-  min-width: 784px;
-}
+  
 
 .two-columns_span-accent {
   line-height: 34px;
