@@ -59,6 +59,8 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 25px;
+  padding: 0;
+  margin: 0;
 }
 
 .header__main-illustration {
@@ -77,8 +79,7 @@
 }
 
 .description {
-  margin-bottom: 100px;
-  margin: 0 auto;
+  margin: 0 auto 100px;
 }
 
 .two-columns {  
@@ -100,10 +101,10 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  margin-top: 0;
+  margin: 0;
+  padding: 0;
 }
   
-
 .two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
@@ -116,6 +117,10 @@
   font-weight: normal;
   margin-top: 0;
   margin-bottom: 30px;
+}
+
+.two-columns__paragraph:last-of-type {
+  margin-bottom: 0;
 }
  
 .list {
@@ -138,7 +143,7 @@
   font-weight: bold;
   width: 60%;
   text-align: center;
-  margin-bottom: 20px;
+  margin: 0 0 20px 0;
   z-index: 1;
   
 }
@@ -150,6 +155,7 @@
   width: 60%;
   text-align: center;
   margin: 0;
+  padding: 0;
   z-index: 1;
 }
 
